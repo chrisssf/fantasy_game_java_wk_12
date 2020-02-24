@@ -1,0 +1,26 @@
+package characters.playerCharacters.magicCharacters.creatures;
+
+public class Creature {
+
+    private String name;
+    private int defendValue;
+
+    public Creature(String name){
+        this.defendValue = 20;
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getDefendValue() {
+        return defendValue;
+    }
+
+    public void setDefendValue(int defendValue) {
+        this.defendValue = defendValue;
+    }
+
+
+}
